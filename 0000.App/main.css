@@ -1,0 +1,49 @@
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	position:relative;
+}
+
+a,button{
+	cursor:pointer;
+}
+
+.container{
+	width: 80%;
+	margin:1rem auto;
+
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.container span{}
+
+.switchBox{}
+
+.lightSwitch{
+	padding:.5rem;
+}
+
+.lightBox{
+	display:inline-block;
+	height:400px;
+	width:400px;
+	background-image:url('./off.png');
+	background-position:center;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.bgImage{
+	display:inline-block;
+	height:400px;
+	width:400px;
+	background-image:url('./on.png');
+	background-position:center;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
